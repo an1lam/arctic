@@ -24,9 +24,9 @@
   position: relative;
   margin-top: 30px;
   margin-bottom: 20px;
-  margin-left: 25px;
-  width: 220px;
-  height: 220px;
+  margin-left: 0px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
 }
 
@@ -34,34 +34,33 @@
     background-color: transparent;
     border: none;
     position: absolute;
-    width: 30px;
+    width: 50px;
     outline: none;
     z-index: 999;
 }
 
 #compass_toggle img {
-    height: 30px;
-    width:30px;
-    height:30px;
+    width:50px;
+    height:50px;
 }
 
 #compass_base {
     position: relative;
-    width: 220px;
-    height: 220px;
+    width: 280px;
+    height: 280px;
     z-index: 998;
 }
 
 #compass .icon {
-    width: 50px;
-    height: 50px;
+    width: 66px;
+    height: 66px;
     z-index: 999;
     position: absolute;
 }
 
 #compass .icon img {
-    width: 50px;
-    height: 50px;
+    width: 66px;
+    height: 66px;
 }
 
 #icon_conference {
@@ -71,11 +70,11 @@
 
 #icon_forum {
   top: 40%;
-  left: 70%;
+  left: 69%;
 }
 
 #icon_report {
-  top: 70%;
+  top: 69%;
   left: 39%;
 }
 
@@ -89,7 +88,7 @@
   height: 30px;
   margin-left auto;
   margin-top auto;
-  left: 33%;
+  left: 36%;
   top: 43%;
   position: absolute;
   z-index: 999;
@@ -109,9 +108,9 @@
 
 .filter_title {
     position:relative;
-    font-size:14px;
+    font-size:18px;
     width:80px;
-    height:26px;
+    height:36px;
 }
 
 .filter_title p {
@@ -138,14 +137,14 @@
 
 .filter form {
     padding-bottom:10px;
-    padding-top:10px;
+    font-size:14px;
 }
 
 .filter_tab {
     position:absolute;
     right:0%;
-    top:2%;
-    width:25px;
+    top:12%;
+    width:30px;
     height:25px;
 }
 
@@ -219,10 +218,6 @@ body {
     padding-right:30px;
 }
 
-#slider img {
-    opacity: 0.6;
-}
-
 .textlayer{
   color: white;
   background-color: rgba(38,61,82, 0.9);
@@ -271,13 +266,11 @@ body {
 .website{
   width:23%;
   height:40%;
-  /*background-color: black;*/
   float:left;
   display: block;
   margin-left:15px;
   margin-top: 10px;
   padding-top: 10px;
-  /*padding-left: 10px;*/
 }
 
 #background-img {
@@ -362,7 +355,7 @@ body {
   color:white;
 }
 .web_text{
-  padding-left: 20px;
+  padding-left: 31px;
 }
 #subheader{
   width:auto;
