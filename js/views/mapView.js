@@ -223,7 +223,9 @@ app.MapView = Parse.View.extend({
             style: getStyle,
             onEachFeature: onEachFeature
         }).addTo(app.MapData.MapDiv);
-        app.MapData.MapDiv.on('popupclose', this.removePopup);
+	var icon = L.divIcon({className: 'arctic-region-text', html: '<b>General Arctic</b>', iconSize: L.point(200, 50)});
+	L.marker([75, 5], {icon: icon}).addTo(app.MapData.MapDiv);
+app.MapData.MapDiv.on('popupclose', this.removePopup);
 	app.MapData.MapDiv.doubleClickZoom.disable();
         return this;
     },

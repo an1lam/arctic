@@ -518,10 +518,20 @@ body {
 
 .reports-popup {
     background: rgba(232, 141, 141, .8);
+    border-radius: 15px;
+
+}
+
+.arctic-region-text {
+    font-size: 30;
+    text-align: center;
+    color: #353839;
+    background: rgba(255, 255, 255, .2);
 }
 
 .conferences-popup {
     background: rgba(76, 141, 90, .8);
+    border-radius: 15px;
 }
 
 .dynamic-image {
