@@ -110,7 +110,7 @@ app.MapView = Parse.View.extend({
         var root = this;
         app.MapData.MapDiv = new L.map(this.el, {
             center: [57.5, -10],
-            zoom: 2,
+            zoom: 2.75,
 	    scrollWheelZoom: false,
             maxZoom: 4,
             zoomControl: false
