@@ -159,7 +159,7 @@ body {
 }
 
 #header_name{
-  font-size:16px;
+  font-size:20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -181,16 +181,13 @@ body {
 #nav ul li{
   display: inline;
   color:white;
-  font-size: 14px;
-  padding-left: 5px;
+  font-size: 16px;
+  padding-left: 10px;
 }
-#nav a{
+#nav a {
   color:white;
   text-decoration: none;
   background-color: black;
-}
-#nav a:visited{
-  color:white;
 }
 #nav a:hover{
   cursor: pointer;
@@ -264,12 +261,10 @@ body {
 }
 
 .website{
-  width:23%;
-  height:40%;
+  width:19%;
+  height:170px;
   float:left;
   display: block;
-  margin-left:15px;
-  margin-top: 10px;
   padding-top: 10px;
 }
 
@@ -347,15 +342,14 @@ body {
 }
 .website_name{
   font-size: 15px;
-  /*display: block;*/
-
 }
 .website_desc{
   font-size:14px;
   color:white;
 }
+
 .web_text{
-  padding-left: 31px;
+  padding-left: 14px;
 }
 #subheader{
   width:auto;
